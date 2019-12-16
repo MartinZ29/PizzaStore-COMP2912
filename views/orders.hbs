@@ -1,0 +1,42 @@
+<div class="container">
+    <h1>{{title}}</h1>
+
+    <ul class="nav nav-tabs">
+        <li><a href="/">Start your order</a></li>
+        <li class="active"><a href="/orders">Order listings</a></li>
+    </ul>
+
+    <br/>
+
+    <div>
+        <table class="table table-striped table-bordered table-hover table-condensed" id="orders">
+        </table>
+    </div>
+
+    <div>
+        <form method="get" id="searchCustomerName">
+                <div class="form-group">
+                    <label for="searchName">Customer name</label>
+                    <input type="text" class="form-control" name="searchName" id="searchName"
+                        placeholder="Enter customer name">
+                </div>        
+
+                <button type="submit" class="btn btn-success">Search</button>
+                <div class="form-group margin-bottom-10">
+        </form>
+    </div>
+
+    <div>
+        <form method="get" id="searchPhone">
+                <div class="form-group">
+                    <label for="searchNumber">Phone number</label>
+                    <input type="text" class="form-control" name="searchNumber" id="searchNumber"
+                        placeholder="Enter phone name">
+                </div>        
+
+                <button type="submit" class="btn btn-success">Search</button>
+                <div class="form-group margin-bottom-10">
+        </form>
+    </div>
+</div>
+<script src="javascripts/orders.js"></script>

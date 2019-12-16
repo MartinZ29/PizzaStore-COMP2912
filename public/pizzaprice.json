@@ -1,0 +1,28 @@
+{
+    "pizzaSizes":[
+        {"size": "L", "price":10},
+        {"size": "M", "price":8},
+        {"size": "S", "price":6}
+    ],
+
+    "crust":[
+        {"type":"normal"},
+        {"type":"thin crust"},
+        {"type":"gluten free"}
+    ],
+
+    "toppings":[
+        {"name":"pepporoni"},
+        {"name":"beef"},
+        {"name":"sausage"},
+        {"name":"chicken"},
+        {"name":"onion"},
+        {"name":"pepper"},
+        {"name":"mushroom"},
+        {"name":"olive"},
+        {"name":"tomato"},
+        {"name":"bacon"}
+    ],
+
+    "toppingPrice":2
+}
